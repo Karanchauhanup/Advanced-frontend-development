@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLICATION FORM</title>
+</head>
+
+<body>
+    <H2>job application form</H2>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="name">NAME</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="gmail">gmail</label><br>
+        <input type="gmail" id="gmail" name="gmail" required><br>
+        <label for="resume">resume</label><br>
+        <label for="geder">male</label><br>
+        <input type="checkbox" name="gender" value="male"><br>
+        
+        <label for="geder">female</label><br>
+        <input type="checkbox" name="gender" value="female"><br>
+
+        <label for="file">file</label><br>
+
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,docx" required><br>
+        <label for="position">job position</label>
+        <select name="position" id="position" required>
+            <br>
+            
+            <option value="select position">select position</option>
+            <option value="soft developwer">soft developer</option>
+            <option value="teacing">teaching</option>
+            <option value="business">business</option>
+        </select><br>
+        <label for="coverletter">Cover Letter:</label><br>
+        <textarea id="coverletter" name="coverletter" rows="6" cols="50" required></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
